@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------------------
-  VideoSub v0.9.5
+  VideoSub v0.9.6
 
   Original MooTools implementation by [Thomas Sturm](http://www.storiesinflight.com)
   jQuery port by [Max Wheeler](http://www.icelab.com.au)
@@ -42,7 +42,7 @@
           el.subcount = 0;
           el.update = function(req) {
             var r, records;
-            records = req.split('\n\n');
+            records = req.replace(/(\r\n|\r|\n)/g, '\n').split('\n\n');
             r = 0;
             $(records).each(function(i) {
               el.subtitles[r] = [];

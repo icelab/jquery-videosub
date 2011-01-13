@@ -1,4 +1,4 @@
-# VideoSub v0.9.5 #
+# VideoSub v0.9.6 #
 
 Standards compliant video subtitles for HTML5 video tags. Original MooTools implementation by [Thomas Sturm](http://www.storiesinflight.com/js_videosub/), jQuery port by [Max Wheeler](http://www.icelab.com.au).
 
@@ -32,7 +32,13 @@ By default, some simple styling is applied to the subtitles. You can remove them
 
 ## Changelog ##
 
-**0.9.5**: Initial jQuery release
+**0.9.6**
+
+* Deal with line-endings correctly
+
+**0.9.5**
+
+* Initial jQuery release
 
 ## Copyright & License ##
 
