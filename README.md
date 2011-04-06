@@ -40,6 +40,6 @@ By default, some simple styling is applied to the subtitles. You can remove them
 
 * Initial jQuery release
 
-## Copyright & License ##
+## License ##
 
-VideoSub is freeware. Attribution appreciated for both Thomas Sturm and Max Wheeler.
+VideoSub is released under the MIT license.
