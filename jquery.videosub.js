@@ -23,7 +23,7 @@
           container.css('position', 'relative');
           container = $this.wrap(container).parent();
           bar = $('<div class="' + o.barClass + '">');
-          bar.css('width', $this.outerWidth() - 40);
+          bar.css('width', $this.outerWidth() - 50);
           if (o.useBarDefaultStyle) {
             bar.css({
               'position': 'absolute',
