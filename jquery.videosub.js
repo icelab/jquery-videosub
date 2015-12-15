@@ -82,6 +82,7 @@
           return $.ajax({
             method: 'get',
             url: src,
+            dataType: o.dataType,
             success: el.update
           });
         }
@@ -107,6 +108,7 @@
   $.fn.videoSub.defaults = {
     containerClass: 'videosub-container',
     barClass: 'videosub-bar',
-    useBarDefaultStyle: true
+    useBarDefaultStyle: true,
+    dataType: 'text'
   };
 })(jQuery);
